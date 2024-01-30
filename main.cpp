@@ -8,7 +8,7 @@
 
 using namespace std;
 using namespace Shapes2d;
-//hello om 
+
 int main()
 {
     while (1)
