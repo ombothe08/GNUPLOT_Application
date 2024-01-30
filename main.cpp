@@ -11,7 +11,6 @@ using namespace Shapes2d;
 
 int main()
 {
-#hi
     while (1)
     {
         cout << "WELCOME" << endl;
