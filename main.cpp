@@ -5,7 +5,6 @@
 #include "headers/Circle.h"
 #include "headers/Ellipse.h"
 #include "headers/Square.h"
-
 using namespace std;
 using namespace Shapes2d;
 
@@ -38,8 +37,7 @@ int main()
             Point d2(x2,y2) ;
            
             Rectangle r1(d1,d2); 
-            r1.Plot();
-             
+            r1.plot();
             break;
         }
         case 2:
@@ -52,8 +50,7 @@ int main()
             Point d1(x1,y1);
 
             Circle c1(d1,radius);
-
-            c1.Plot();
+            c1.plot();
             break;
         }
 
@@ -69,8 +66,7 @@ int main()
             Point d3(x3,y3);
            
            Triangle t1(d1,d2,d3); 
-           t1.Plot();
-       
+           t1.plot();
            break;
         }
         case 4:
@@ -86,8 +82,7 @@ int main()
 
             Ellipse e1(d1,d2,d3);
 
-            e1.Plot();
-
+            e1.plot();
             cout<<endl;
             break;
         }
@@ -100,10 +95,9 @@ int main()
 
             Point d1(x1,y1);
             Point d2(x2,y2);
-
             Line l1(d1,d2);
 
-            l1.Plot();
+            l1.plot();
             cout<<endl;
             break;
         }
@@ -113,13 +107,9 @@ int main()
             cout<<"Enter the lenght of the square"<<endl;
             double mlength;
             cin>>mlength;
-
-            // Point d1(x1,y1);
-            // Point d2(x2,y2);
-
             Square s1(mlength);
 
-            s1.Plot();
+            s1.plot();
             cout<<endl;
             break;
         }

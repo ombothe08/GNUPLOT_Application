@@ -9,7 +9,7 @@ class Line :public Shapes
         Line(Point d1 , Point d2);
         ~Line();
  
-    void Plot();
+        void plot();
  
     private:
         Point d2;

@@ -5,13 +5,11 @@ namespace Shapes2d
 {
     class Point
     {    
-        public:
-        //constructor and destructor 
+        public: 
             Point();                   
             Point(double x, double y); 
             ~Point();
-             
-        //setter method declaration 
+              
             double x() ; 
             double y() ;
 

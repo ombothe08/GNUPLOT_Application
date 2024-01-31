@@ -8,15 +8,13 @@ Point :: Point()
     mX = 0.0;
     mY = 0.0;
 }
-
-//parameterized constructor 
+ 
 Point::Point(double x, double y)
 {
     mX = x;
     mY = y;
 }
 
-//Destructor
 Point::~Point() {}
 
 //method to return the x coordinate value

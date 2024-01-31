@@ -8,10 +8,8 @@ class Square : public Shapes
         Square(int mlength);
         ~Square();
     
-    void Plot();
+        void plot();
 
     private:
         int mlength;
-        // int mD;
-        // int breadth;
 };

@@ -10,7 +10,7 @@ class Circle :public Shapes
         Circle(Point o, double r);
         ~Circle();
 
-    void Plot();
+        void plot();
 
     private :
      float mRadius;

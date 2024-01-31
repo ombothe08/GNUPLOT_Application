@@ -12,11 +12,8 @@ class Rectangle : public Shapes
         Rectangle(Point d1,Point d2);
         ~Rectangle();
     
-    void Plot();
-
+        void plot();
 
     private:
         Point mDiagonal;
-        // int mD;
-        // int breadth;
 };
